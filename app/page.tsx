@@ -71,7 +71,7 @@ export default function MyComponent() {
       console.log('Subscriber data:', subscriberData);
 
       // Store in Firestore with error handling
-      const subscribersRef = collection(db, "subscribers");
+      const subscribersRef = collection(db, "waitlistusers");
       const docRef = await addDoc(subscribersRef, subscriberData);
 
       console.log('Successfully stored in Firestore:', { 
