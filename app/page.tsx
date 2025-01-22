@@ -59,6 +59,7 @@ export default function MyComponent() {
       }
 
       console.log('Attempting to store in Firestore...');
+       <Analytics />
       
       // Create subscriber data
       const subscriberData = {
