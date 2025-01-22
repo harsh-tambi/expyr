@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Analytics } from "@vercel/analytics/react";
 import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
