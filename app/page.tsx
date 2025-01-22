@@ -1,10 +1,10 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Analytics } from "@vercel/analytics/react";
 import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../firebase";
 
@@ -59,7 +59,6 @@ export default function MyComponent() {
       }
 
       console.log('Attempting to store in Firestore...');
-       <Analytics />
       
       // Create subscriber data
       const subscriberData = {
@@ -160,6 +159,7 @@ export default function MyComponent() {
                 <h1 className="hero-title text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#0D5F3C] leading-tight mb-6">
                   Stop Wasting,<br />Start Saving.
                 </h1>
+                <Analytics />
                 <h2 className="hero-subtitle">
                   Never Throw Away Expired Groceries Again!
                 </h2>
