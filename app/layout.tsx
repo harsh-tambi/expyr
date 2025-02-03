@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Expyr.ai - Smart Grocery Assistant",
-  description: "Never throw away expired groceries again! Expyr.ai helps you track expiry dates and manage groceries using AI.",
+  description: "Scan. Track. Never waste food again! Expyr.ai helps you track expiry dates and manage groceries using AI.",
   keywords: "grocery management, expiry tracking, food waste, AI assistant",
   openGraph: {
     title: "Expyr.ai - Smart Grocery Assistant",
-    description: "Never throw away expired groceries again!",
+    description: "Scan. Track. Never waste food again! Expyr.ai helps you track expiry dates and manage groceries using AI.",
     images: ['/images/logo.png'],
   },
   robots: "index,follow",
